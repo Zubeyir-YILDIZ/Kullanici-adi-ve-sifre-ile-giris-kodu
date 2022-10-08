@@ -21,7 +21,7 @@ public class Main
             else
             {
                 System.out.println("Hatalı Şifre \n Şifrenizi değiştirmek için 'Evet' yazın ");
-                kontrol=input.nextLine().toUpperCase(); //toUpperCase() konu dışı girilen kelimenin harflerini büyük yazdırır
+                kontrol=input.nextLine().toUpperCase(); //toUpperCase() konu dışı girilen kelimenin harflerini ilgili değişkene büyük harflerle atar
                 if(kontrol.equals("EVET"))
                 {
                     sifre2=sifre;
