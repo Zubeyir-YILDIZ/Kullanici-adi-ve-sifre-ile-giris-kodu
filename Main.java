@@ -20,7 +20,7 @@ public class Main
             }
             else
             {
-                System.out.println("Hatalı Şifre \n Şifrenizi değiştirmek için 'Evet' yazın ");
+                System.out.println("Hatalı Şifre \n Şifrenizi değiştirmek için 'Evet' yazın (Çıkmak için bir tuşa basın) ");
                 kontrol=input.nextLine().toUpperCase(); //toUpperCase() konu dışı girilen kelimenin harflerini ilgili değişkene büyük harflerle atar
                 if(kontrol.equals("EVET"))
                 {
